@@ -17,7 +17,7 @@ const initialState: CounterState = {
   filteredUsers: [],
 }
 
-export const usersSlice = createSlice({
+export const usersSlice: any = createSlice({
   name: 'users',
   initialState,
   reducers: {
