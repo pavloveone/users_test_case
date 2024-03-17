@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  background-color: rgba(18, 20, 27, 1);
+  font-family: "Jura";
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 4px;
+  background-color: #e8e8e81a;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #7a7a7a;
+  height: 140px;
+}
